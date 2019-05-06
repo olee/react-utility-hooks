@@ -1,0 +1,28 @@
+{
+  "name": "@olee92/react-hooks",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Collection of useful react hooks",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -R dist && tsc && node generate-package-json",
+    "publish": "cd dist && npm publish"
+  },
+  "author": "Björn Zeutzheim <npm@bzeutzheim.de> (https://github.com/olee)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olee/react-utility-hooks.git"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">=16.8",
+    "lodash": ">=4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.123",
+    "@types/react": "^16.8.16",
+    "lodash": "^4.17.11",
+    "react": "^16.8.6"
+  }
+}
