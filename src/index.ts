@@ -29,6 +29,7 @@ export { default as useMap } from './useMap';
 export { default as useMappedState } from './useMappedState';
 export { default as useMedia } from './useMedia';
 export { default as useMemoWithDisposer } from './useMemoWithDisposer';
+export { default as useMemoWithLastValue } from './useMemoWithLastValue';
 export { default as useNumber } from './useNumber';
 export { default as usePartialSetState } from './usePartialSetState';
 export { default as usePropChangeLogger } from './usePropChangeLogger';

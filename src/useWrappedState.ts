@@ -1,5 +1,5 @@
 import { useState, Dispatch, SetStateAction } from 'react';
-import { unwrapSetStateAction } from './index';
+import { unwrapSetStateAction } from './core';
 
 /**
  * Replacement for useState which allows running hooks or transformations on commited values.

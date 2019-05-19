@@ -1,5 +1,5 @@
 import { useState, Dispatch, SetStateAction } from 'react';
-import { useConstant, unwrapSetStateAction } from './index';
+import { useConstant, unwrapSetStateAction } from './core';
 
 export default function useMappedState<TValue, TMapped>(mapValue: (value: TValue, previousValue?: TValue, previousMapped?: TMapped) => TMapped, initialValue: TValue | (() => TValue)) {
     // tslint:disable-next-line:prefer-const
