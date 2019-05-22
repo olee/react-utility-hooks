@@ -6,7 +6,7 @@ export default function useMemoWithDisposer<T>(initializer: () => T, disposer: (
         if (lastValueRef.current !== undefined)
             disposer(lastValueRef.current);
         return initializer();
-    }, [deps]);
+    }, deps);
     lastValueRef.current = value;
     useEffect(() => () => {
         if (lastValueRef.current !== undefined)

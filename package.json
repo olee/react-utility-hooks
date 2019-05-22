@@ -1,7 +1,7 @@
 {
   "name": "@olee92/react-hooks",
   "private": true,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Collection of useful react hooks",
   "main": "index.js",
   "scripts": {
